@@ -16,7 +16,7 @@ button:focus {
 
 /* -------- BODY DISPLAY --------- */
 body {
-  background-color: #222;
+  background-color: #3a0066; 
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -42,7 +42,7 @@ body {
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
-  color: #fff;
+  color: #ffd700; 
   font-size: 3.5em;
   white-space: nowrap;
   font-weight: bold;
@@ -57,11 +57,11 @@ body {
 }
 
 .container .box span i:nth-child(1) {
-  color: #5c5fc4;
+  color: #8a2be2; 
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: #ffd700; 
 }
 
 @keyframes animate {
@@ -73,6 +73,3 @@ body {
     transform: perspective(50px) rotateX(360deg) rotate(5deg);
   }
 }
-
-/* -------- PSEUDO CLASS --------- */
-/* -------- MEDIA QUERY --------- */
